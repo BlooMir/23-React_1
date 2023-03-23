@@ -6,9 +6,10 @@
 
 ## 23.03.16 3주차 정리
 
-<h3>React란?</h3>
+## React란?
+
 React는 사용자 인터페이스를 만들기위한 자바스크립트 라이브러리로, 이름에서 알 수 있듯이 사용자의 반응과 리액션에 대해 반응해주는 웹을 만들기 위해 있는 라이브러리다.
-SPA(Single Page application)을 쉽고 빠르게 만들 수 있으며 <br/>최근 버전인 18에선 SSR(Server Side Render)도 지원예정이다.
+SPA(Single Page application)을 쉽고 빠르게 만들 수 있으며 최근 버전인 18에선 SSR(Server Side Render)도 지원예정이다.
 
 ## 장점과 특징
 1. 빠른 업데이트와 렌더링 속도
