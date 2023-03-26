@@ -1,6 +1,23 @@
-# 이수용
-## 23.03.23 4주차 정리
+# **이수용**
+## ***23.03.23 4주차 정리***
 
+## **JSX**
+### JavaScript에 XML와 HTML태그를 넣어서 쓸 수 있는 확장언어
+
+만일 JS로만 작업을 할 경우, 직접 이를 작성해줘야 하므로 가독성과 효율이 떨어진다.  
+리액트에선 JSX 문법을 createElement를 통해 변환해주고, 브라우저에서는 실행하기전 babel을 통해 바닐라 JS  형태로 변환된다.  
+
+ ## **JSX의 장점** 
+1. 코드가 간결해진다. 
+2. 가독성이 향상된다.
+3. JS 악성코드를 Injection 하여 해킹하는것을 방지한다.
+
+> React DOM escapes any values embedded in JSX before rendering them. Thus it ensures that you can never inject anything that’s not explicitly written in your application. Everything is converted to a string before being rendered.  
+
+>React DOM은 렌더링하기 전에 JSX에 포함된 모든 값을 이스케이프 처리합니다. 따라서 애플리케이션에 명시적으로 작성되지 않은 것은 주입할 수 없습니다. 모든 것은 렌더링되기 전에 문자열로 변환됩니다.  
+<span style="font-size:75%">출처 : https://iq.js.org/questions/react/how-jsx-prevents-injection-attacks</span>
+
+ 
 
 <hr/>
 
